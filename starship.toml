@@ -71,6 +71,10 @@ disabled = true
 success_symbol = " [╰─λ](bold #ff0000)"
 error_symbol = " [×](bold red)"
 
+# If user is within a container, disable the annoying systemd thing
+[container]
+disabled = true
+
 # SYMBOLS
 [status]
 symbol = "🔴"
